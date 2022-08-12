@@ -12,7 +12,7 @@ class MainKtTest {
 
         val result = calcCommission(type1, amountMonth, amountNow)
 
-        assertEquals(1, result)
+        assertEquals(2, result)
     }
 
     @Test
